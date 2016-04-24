@@ -1,17 +1,5 @@
 class Hamming
 
-  def initialize
-  end
-
-  # def self.compute(strand_a, strand_b)
-  #   if strand_a == strand_b
-  #     0
-  #   else
-  #     "not allowed"
-  #   end
-  # end
-
-
   def self.compute(strand_a, strand_b)
     if strand_a.length == strand_b.length
 
